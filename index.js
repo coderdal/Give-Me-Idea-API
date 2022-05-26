@@ -1,11 +1,23 @@
 const express = require("express");
 const app = express();
 const { v4: uuidv4 } = require("uuid");
+<<<<<<< HEAD
 var cors = require("cors");
 
 const port = 3001;
 
 app.use(cors({ origin: "*" }));
+=======
+const cors = require("cors");
+
+const port = 3001;
+
+const corsOption = {
+  origin: ["*"],
+};
+
+app.use(cors(corsOption));
+>>>>>>> 3d4a2575d9c2562d4a92c739cc1108f7e1e6abe5
 
 const data = [
   /* CSS */
