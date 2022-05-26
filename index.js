@@ -1,8 +1,11 @@
 const express = require("express");
 const app = express();
 const { v4: uuidv4 } = require("uuid");
+var cors = require("cors");
 
 const port = 3001;
+
+app.use(cors({ origin: "*" }));
 
 const data = [
   /* CSS */
