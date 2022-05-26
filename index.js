@@ -6,7 +6,7 @@ const cors = require("cors");
 const port = 3001;
 
 const corsOption = {
-  origin: ["https://givemeidea.netlify.app/"],
+  origin: ["https://givemeidea.netlify.app"],
 };
 
 app.use(cors(corsOption));
