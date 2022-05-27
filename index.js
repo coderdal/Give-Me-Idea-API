@@ -4,6 +4,14 @@ const server = express();
 
 const data = require("./data.js");
 
+const cors = require("cors");
+
+server.use(
+  cors({
+    origin: "https://givemeidea.netlify.app",
+  })
+);
+
 /* EndPoints */
 
 server.get("/", (req, res) => {
