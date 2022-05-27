@@ -459,4 +459,64 @@ module.exports = [
       },
     ],
   },
+  /* Vue */
+  {
+    category: "vue",
+    data: [
+      {
+        id: uuidv4(),
+        title: "No Content Yet",
+        image:
+          "https://openedx.org/wp-content/uploads/2018/12/contribute@2x.png",
+        description: "Sorry there is no any content yet.",
+        task: "If you want to contribute (add, edit) the project, you can reach us from the social platforms in the contact section.",
+        challenge: "Coding For Everyone",
+        note: "Coding For Everyone",
+        related: [
+          "https://linkedin.com/in/muhammederdal/",
+          "https://twitter.com/cod_erdal",
+        ],
+      },
+    ],
+  },
+  /* Angular */
+  {
+    category: "angular",
+    data: [
+      {
+        id: uuidv4(),
+        title: "No Content Yet",
+        image:
+          "https://openedx.org/wp-content/uploads/2018/12/contribute@2x.png",
+        description: "Sorry there is no any content yet.",
+        task: "If you want to contribute (add, edit) the project, you can reach us from the social platforms in the contact section.",
+        challenge: "Coding For Everyone",
+        note: "Coding For Everyone",
+        related: [
+          "https://linkedin.com/in/muhammederdal/",
+          "https://twitter.com/cod_erdal",
+        ],
+      },
+    ],
+  },
+  /* Svelte */
+  {
+    category: "svelte",
+    data: [
+      {
+        id: uuidv4(),
+        title: "No Content Yet",
+        image:
+          "https://openedx.org/wp-content/uploads/2018/12/contribute@2x.png",
+        description: "Sorry there is no any content yet.",
+        task: "If you want to contribute (add, edit) the project, you can reach us from the social platforms in the contact section.",
+        challenge: "Coding For Everyone",
+        note: "Coding For Everyone",
+        related: [
+          "https://linkedin.com/in/muhammederdal/",
+          "https://twitter.com/cod_erdal",
+        ],
+      },
+    ],
+  },
 ];
