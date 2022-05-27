@@ -1,0 +1,15 @@
+{
+  "name": "givemeidea_api",
+  "version": "1.0.0",
+  "description": "give me idea app api service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "coderdal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  }
+}
