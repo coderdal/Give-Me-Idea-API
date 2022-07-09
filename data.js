@@ -457,6 +457,20 @@ module.exports = [
           "https://www.youtube.com/watch?v=1yS-JV4fWqY",
         ],
       },
+      {
+        id: uuidv4(),
+        title: "Music Player",
+        image: "https://i.pinimg.com/originals/0d/3e/be/0d3ebe17833967b840e0ca04b4e53116.png",
+        description:
+          "Create a Music Player app using your React JS knowledge.",
+        task: "Create a Music Player App. Develop an application that will automatically play the music list. Make your app functional app and publish it ! Send it to us and we'll share you here.",
+        challenge: "Enable searching between songs.",
+        note: "Note: You can use SASS, Bootstrap, Tailwind etc. libraries to stylize your app.",
+        related: [
+          "https://aviyel.com/post/1193",
+          "https://www.youtube.com/watch?v=OW8sz5bps4E",
+        ],
+      },
     ],
   },
   /* Vue */
